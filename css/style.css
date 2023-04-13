@@ -43,7 +43,7 @@
   stroke: #eee;
 }
 .body.dark-mode .user__select {
-  background-color: #666;
+  background-color: transparent;
   color: #eee;
   -webkit-appearance: auto;
   -moz-appearance: auto;

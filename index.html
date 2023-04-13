@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+    />
+    <link
+      rel="preload"
+      href="fonts/Commissioner-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <title>Djinni</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container d-flex justify-content-between align-items-center">
+        <nav class="navbar navbar-expand-lg col col-lg-12 navbar-light p-0">
+          <div
+            class="container-fluid py-2 py-lg-0 px-0 py-lg-0 d-flex justify-content-between"
+          >
+            <a
+              class="navbar-brandv d-lg-none"
+              href="#"
+            >
+              <svg
+                width="82"
+                height="28"
+                viewBox="0 0 82 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_312_2)">
+                  <path
+                    d="M12.1473 11.5705H12.1485V23.718H8.93701L8.66174 22.6703H8.56998C8.17237 23.0651 7.71359 23.3839 7.19362 23.6269C6.67366 23.8699 6.169 23.9913 5.67963 23.9913C4.73146 23.9913 3.90566 23.7484 3.20218 23.2625C2.4987 22.7766 1.95581 22.0857 1.57348 21.1898C1.19116 20.2939 1 19.2386 1 18.0239C1 16.8243 1.22175 15.7728 1.66524 14.8693C2.10874 13.9658 2.68986 13.2712 3.40863 12.7853C4.1274 12.2993 4.88439 12.0564 5.67963 12.0564C6.26076 12.0564 6.75395 12.1513 7.15921 12.3411C7.51558 12.508 7.86308 12.7483 8.20171 13.062V9.95699C8.32866 8.5457 9.64383 7.84005 12.1472 7.84005L12.1473 11.5705ZM8.20295 19.2165H8.20171V15.7907C7.789 15.427 7.26946 15.2451 6.64308 15.2451C6.18429 15.2451 5.80197 15.4653 5.49611 15.9056C5.19025 16.346 5.03733 17.0369 5.03733 17.9783C5.03733 18.9653 5.1826 19.6828 5.47317 20.1307C5.76374 20.5786 6.18429 20.8026 6.73484 20.8026C7.05599 20.8026 7.33126 20.7419 7.56065 20.6204C7.79005 20.4989 8.00414 20.2863 8.20295 19.9826V19.2165ZM12.562 27.6789L12.5638 27.6782C14.3599 26.9753 15.246 25.5185 15.2223 23.3077C15.2223 23.2927 15.2224 23.2777 15.2224 23.2625L15.2683 12.3297H19.2138L19.168 23.1258C19.168 24.5683 18.8239 25.7413 18.1357 26.6448C17.4475 27.5483 16.3082 28 14.7177 28C13.8613 28 13.1426 27.8937 12.5614 27.6811L12.562 27.6789ZM59.8623 23.7062C57.3589 23.7062 56.0437 23.0005 55.9168 21.5892V12.3297H59.8624L59.8623 23.7062ZM17.2463 10.9176C16.6345 10.9176 16.1299 10.7354 15.7323 10.3709C15.3347 10.0065 15.1358 9.53579 15.1358 8.95879C15.1358 8.38178 15.3347 7.91106 15.7323 7.54664C16.1299 7.18221 16.6345 7 17.2463 7C17.858 7 18.3626 7.18221 18.7603 7.54664C19.1579 7.91106 19.3567 8.38178 19.3567 8.95879C19.3567 9.53579 19.1579 10.0065 18.7603 10.3709C18.3626 10.7354 17.858 10.9176 17.2463 10.9176ZM21.9207 12.3297H25.8663V23.718H21.9207V12.3297ZM23.8935 10.9176C23.2817 10.9176 22.7771 10.7354 22.3795 10.3709C21.9819 10.0065 21.783 9.53579 21.783 8.95879C21.783 8.38178 21.9819 7.91106 22.3795 7.54664C22.7771 7.18221 23.2817 7 23.8935 7C24.5052 7 25.0098 7.18221 25.4075 7.54664C25.8051 7.91106 26.0039 8.38178 26.0039 8.95879C26.0039 9.53579 25.8051 10.0065 25.4075 10.3709C25.0098 10.7354 24.5052 10.9176 23.8935 10.9176ZM28.7566 12.3297H31.9681L32.2434 13.6963H32.3351C32.8704 13.1952 33.4286 12.7966 34.0097 12.5005C34.5909 12.2044 35.2408 12.0564 35.9596 12.0564C37.183 12.0564 38.0853 12.4626 38.6664 13.2749C39.2475 14.0873 39.5381 15.2299 39.5381 16.7028V23.718H35.5925V17.2039C35.5925 16.5054 35.5046 16.0271 35.3287 15.769C35.1529 15.5108 34.8585 15.3818 34.4456 15.3818C34.1091 15.3818 33.8186 15.4463 33.5739 15.5754C33.3292 15.7044 33.0386 15.9284 32.7022 16.2473V23.718H28.7566V12.3297ZM42.3367 12.3297H45.5482L45.8235 13.6963H45.9152C46.4505 13.1952 47.0087 12.7966 47.5898 12.5005C48.1709 12.2044 48.8209 12.0564 49.5397 12.0564C50.7631 12.0564 51.6654 12.4626 52.2465 13.2749C52.8276 14.0873 53.1182 15.2299 53.1182 16.7028V23.718H49.1726V17.2039C49.1726 16.5054 49.0847 16.0271 48.9088 15.769C48.733 15.5108 48.4386 15.3818 48.0257 15.3818C47.6892 15.3818 47.3987 15.4463 47.154 15.5754C46.9093 15.7044 46.6187 15.9284 46.2823 16.2473V23.718H42.3367V12.3297ZM57.8896 10.9176C57.2779 10.9176 56.7732 10.7354 56.3756 10.3709C55.978 10.0065 55.7792 9.53579 55.7792 8.95879C55.7792 8.38178 55.978 7.91106 56.3756 7.54664C56.7732 7.18221 57.2779 7 57.8896 7C58.5013 7 59.006 7.18221 59.4036 7.54664C59.8012 7.91106 60 8.38178 60 8.95879C60 9.53579 59.8012 10.0065 59.4036 10.3709C59.006 10.7354 58.5013 10.9176 57.8896 10.9176Z"
+                    fill="#333333"
+                  />
+                  <path
+                    d="M63.8555 4V5.25H60.2422V4H63.8555ZM61.0625 2.5625H62.7266V8.15625C62.7266 8.3099 62.75 8.42969 62.7969 8.51562C62.8438 8.59896 62.9089 8.65755 62.9922 8.69141C63.0781 8.72526 63.1771 8.74219 63.2891 8.74219C63.3672 8.74219 63.4453 8.73568 63.5234 8.72266C63.6016 8.70703 63.6615 8.69531 63.7031 8.6875L63.9648 9.92578C63.8815 9.95182 63.7643 9.98177 63.6133 10.0156C63.4622 10.0521 63.2786 10.0742 63.0625 10.082C62.6615 10.0977 62.3099 10.0443 62.0078 9.92187C61.7083 9.79948 61.4753 9.60937 61.3086 9.35156C61.1419 9.09375 61.0599 8.76823 61.0625 8.375V2.5625ZM67.6094 10.1172C66.9922 10.1172 66.4609 9.99219 66.0156 9.74219C65.5729 9.48958 65.2318 9.13281 64.9922 8.67187C64.7526 8.20833 64.6328 7.66016 64.6328 7.02734C64.6328 6.41016 64.7526 5.86849 64.9922 5.40234C65.2318 4.9362 65.569 4.57292 66.0039 4.3125C66.4414 4.05208 66.9544 3.92188 67.543 3.92188C67.9388 3.92188 68.3073 3.98568 68.6484 4.11328C68.9922 4.23828 69.2917 4.42708 69.5469 4.67969C69.8047 4.93229 70.0052 5.25 70.1484 5.63281C70.2917 6.01302 70.3633 6.45833 70.3633 6.96875V7.42578H65.2969V6.39453H68.7969C68.7969 6.15495 68.7448 5.94271 68.6406 5.75781C68.5365 5.57292 68.3919 5.42839 68.207 5.32422C68.0247 5.21745 67.8125 5.16406 67.5703 5.16406C67.3177 5.16406 67.0938 5.22266 66.8984 5.33984C66.7057 5.45443 66.5547 5.60937 66.4453 5.80469C66.3359 5.9974 66.2799 6.21224 66.2773 6.44922V7.42969C66.2773 7.72656 66.332 7.98307 66.4414 8.19922C66.5534 8.41536 66.7109 8.58203 66.9141 8.69922C67.1172 8.81641 67.3581 8.875 67.6367 8.875C67.8216 8.875 67.9909 8.84896 68.1445 8.79688C68.2982 8.74479 68.4297 8.66667 68.5391 8.5625C68.6484 8.45833 68.7318 8.33073 68.7891 8.17969L70.3281 8.28125C70.25 8.65104 70.0898 8.97396 69.8477 9.25C69.6081 9.52344 69.2982 9.73698 68.918 9.89063C68.5404 10.0417 68.1042 10.1172 67.6094 10.1172ZM76.4414 5.71094L74.918 5.80469C74.8919 5.67448 74.8359 5.55729 74.75 5.45312C74.6641 5.34635 74.5508 5.26172 74.4102 5.19922C74.2721 5.13411 74.1068 5.10156 73.9141 5.10156C73.6563 5.10156 73.4388 5.15625 73.2617 5.26562C73.0846 5.3724 72.9961 5.51562 72.9961 5.69531C72.9961 5.83854 73.0534 5.95964 73.168 6.05859C73.2826 6.15755 73.4792 6.23698 73.7578 6.29687L74.8438 6.51562C75.4271 6.63542 75.862 6.82812 76.1484 7.09375C76.4349 7.35937 76.5781 7.70833 76.5781 8.14062C76.5781 8.53385 76.4622 8.87891 76.2305 9.17578C76.0013 9.47266 75.6862 9.70443 75.2852 9.87109C74.8867 10.0352 74.4271 10.1172 73.9063 10.1172C73.112 10.1172 72.4792 9.95182 72.0078 9.62109C71.5391 9.28776 71.2643 8.83464 71.1836 8.26172L72.8203 8.17578C72.8698 8.41797 72.9896 8.60286 73.1797 8.73047C73.3698 8.85547 73.6133 8.91797 73.9102 8.91797C74.2018 8.91797 74.4362 8.86198 74.6133 8.75C74.793 8.63542 74.8841 8.48828 74.8867 8.30859C74.8841 8.15755 74.8203 8.03385 74.6953 7.9375C74.5703 7.83854 74.3776 7.76302 74.1172 7.71094L73.0781 7.50391C72.4922 7.38672 72.056 7.18359 71.7695 6.89453C71.4857 6.60547 71.3438 6.23698 71.3438 5.78906C71.3438 5.40365 71.4479 5.07161 71.6563 4.79297C71.8672 4.51432 72.1628 4.29948 72.543 4.14844C72.9258 3.9974 73.3737 3.92188 73.8867 3.92188C74.6445 3.92188 75.2409 4.08203 75.6758 4.40234C76.1133 4.72266 76.3685 5.15885 76.4414 5.71094ZM80.8174 4V5.25H77.2041V4H80.8174ZM78.0244 2.5625H79.6885V8.15625C79.6885 8.3099 79.7119 8.42969 79.7588 8.51562C79.8057 8.59896 79.8708 8.65755 79.9541 8.69141C80.04 8.72526 80.139 8.74219 80.251 8.74219C80.3291 8.74219 80.4072 8.73568 80.4854 8.72266C80.5635 8.70703 80.6234 8.69531 80.665 8.6875L80.9268 9.92578C80.8434 9.95182 80.7262 9.98177 80.5752 10.0156C80.4242 10.0521 80.2406 10.0742 80.0244 10.082C79.6234 10.0977 79.2718 10.0443 78.9697 9.92187C78.6702 9.79948 78.4372 9.60937 78.2705 9.35156C78.1038 9.09375 78.0218 8.76823 78.0244 8.375V2.5625Z"
+                    fill="#333333"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_312_2">
+                    <rect
+                      width="82"
+                      height="28"
+                      fill="white"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="visually-hidden">Djinni</span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M4 18h16M4 12h16M4 6h16"
+                  stroke="#000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarTogglerDemo02"
+            >
+              <ul class="navigation navbar-nav col-lg-3 mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link px-0 py-2 py-lg-4 mb-lg-0 active"
+                    href="#"
+                    >Photos</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link px-0 py-2 py-lg-4 mb-lg-0"
+                    href="#"
+                    >Videos</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link px-0 py-2 py-lg-4 mb-lg-0"
+                    href="#"
+                    >Podcast</a
+                  >
+                </li>
+              </ul>
+              <div class="search mb-3 mb-lg-0 col-lg-6 offset-lg-1">
+                <form
+                  action="#"
+                  role="search"
+                  class="position-relative"
+                >
+                  <button
+                    type="submit"
+                    class="search__button btn position-absolute top-50 translate-middle-y p-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="19"
+                      height="19"
+                      fill="none"
+                    >
+                      <path
+                        d="m17 17-3.95-3.95M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                        stroke="#666"
+                        stroke-width="2"
+                        stroke-linecap="square"
+                      />
+                    </svg>
+                  </button>
+                  <input
+                    class="search__input form-control rounded-pill border-0 py-2 px-5 w-100"
+                    type="text"
+                    aria-label="Enter Keyword or Item No."
+                    placeholder="Search for anything..."
+                    required
+                  />
+                </form>
+              </div>
+              <div
+                class="user col-lg-2 d-flex align-items-center justify-content-end"
+              >
+                <select
+                  class="user__select form-select border-0"
+                  aria-label="choose language"
+                >
+                  <option selected>English</option>
+                </select>
+                <a
+                  href="#"
+                  class="user__sign-in nav-link"
+                  >Sign in</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main container">
+      <div class="row">
+        <aside class="aside mb-4 col-lg-3">
+          <ul
+            class="filter d-flex flex-wrap justify-content-between sticky-lg-top p-0 mb-0"
+          >
+            <li
+              class="nav-link col-lg-12"
+              tabindex="0"
+            >
+              <input
+                type="radio"
+                class="btn-check"
+                name="filter"
+                id="filter-1"
+                checked
+              />
+              <label
+                class="btn photos d-flex align-items-center w-100 text-start rounded-3 py-2 border-0"
+                for="filter-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                >
+                  <path
+                    d="M15 6.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"
+                    fill="#666"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 3h18v18H3V3zm16 9.836c-1.145 1.062-2.296 1.618-4 1.618-1.906 0-3.38-1.168-4.847-2.75a3 3 0 0 0-3.863-.454l-.022.015L5 12.213V5h14v7.836z"
+                    fill="#666"
+                  />
+                </svg>
+                <span>All photos</span>
+              </label>
+            </li>
+            <li
+              class="nav-link col-lg-12"
+              tabindex="0"
+            >
+              <input
+                type="radio"
+                class="btn-check"
+                name="filter"
+                id="filter-2"
+              />
+
+              <label
+                class="btn selfies d-flex align-items-center w-100 text-start rounded-3 py-2 border-0"
+                for="filter-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                >
+                  <path
+                    d="M17.5 12a5.5 5.5 0 1 1-11 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"
+                    stroke="#666"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M11 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM16 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                    fill="#666"
+                  />
+                </svg>
+                Selfies</label
+              >
+            </li>
+            <li
+              class="nav-link col-lg-12"
+              tabindex="0"
+            >
+              <input
+                type="radio"
+                class="btn-check"
+                name="filter"
+                id="filter-3"
+              />
+
+              <label
+                class="btn recent d-flex align-items-center w-100 text-start rounded-3 py-2 border-0"
+                for="filter-3"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                >
+                  <path
+                    d="M12 8v4l2.5 2.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"
+                    stroke="#666"
+                    stroke-width="2"
+                    stroke-linecap="square"
+                  />
+                </svg>
+                Recent</label
+              >
+            </li>
+            <li
+              class="nav-link col-lg-12"
+              tabindex="0"
+            >
+              <input
+                type="radio"
+                class="btn-check"
+                name="filter"
+                id="filter-4"
+              />
+              <label
+                class="btn deleted d-flex align-items-center w-100 text-start rounded-3 py-2 border-0"
+                for="filter-4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                >
+                  <path
+                    d="m6 21-.998.067.062.933H6v-1zm12 0v1h.936l.062-.933L18 21zM3 5H2v2h1V5zm18 2h1V5h-1v2zm-10 4v-1H9v1h2zm-2 5v1h2v-1H9zm6-5v-1h-2v1h2zm-2 5v1h2v-1h-2zM4.002 6.067l1 15 1.996-.134-1-15-1.996.134zM6 22h12v-2H6v2zm12.998-.933 1-15-1.996-.134-1 15 1.996.134zM19 5H5v2h14V5zM3 7h2V5H3v2zm16 0h2V5h-2v2zM9 11v5h2v-5H9zm4 0v5h2v-5h-2zm-1-7c1.396 0 2.572.955 2.905 2.25l1.937-.5A5.002 5.002 0 0 0 12 2v2zM9.094 6.25A3.002 3.002 0 0 1 12 4V2a5.002 5.002 0 0 0-4.842 3.75l1.936.5z"
+                    fill="#666"
+                  />
+                </svg>
+                Deleted</label
+              >
+            </li>
+          </ul>
+        </aside>
+        <div class="product-list__wrapper offset-lg-1 col-lg-8">
+          <div
+            class="head d-flex align-items-center justify-content-between mb-2"
+          >
+            <h1 class="fw-bold mb-0">All Photos</h1>
+            <div class="sort btn-group">
+              <input
+                type="radio"
+                class="btn-check"
+                name="sort"
+                id="sort1"
+                checked
+              />
+              <label
+                class="btn fw-bold"
+                tabindex="0"
+                for="sort1"
+                >Newest</label
+              >
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="sort"
+                id="sort2"
+              />
+              <label
+                class="btn fw-bold"
+                tabindex="0"
+                for="sort2"
+                >Latest</label
+              >
+            </div>
+          </div>
+          <div
+            class="product-list__items d-flex align-content-center justify-content-between fw-bold"
+          >
+            <span class="product-list__items-text"></span>
+            <div
+              class="btn-dark-mode d-flex align-content-center column-gap-2 form-check form-switch"
+            >
+              <input
+                class="form-check-input m-0"
+                type="checkbox"
+                id="flexSwitchCheckChecked"
+              />
+              <label
+                class="form-check-label fs-5"
+                for="flexSwitchCheckChecked"
+                >Dark theme</label
+              >
+            </div>
+          </div>
+          <div class="product-list grid-two-columns"></div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

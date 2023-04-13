@@ -47,8 +47,8 @@ async function getData(page = 1) {
   results.forEach(({ author, download_url, url }) => {
     productList.insertAdjacentHTML(
       'beforeend',
-      `<div class="card">
-        <a href="${url}" class="nav-link">
+      `<li class="card">
+        <a href="${url}" class="nav-link ratio " style="--bs-aspect-ratio: 66%;">
           <img
             load="lazy"
             src="${download_url}"
@@ -68,15 +68,15 @@ async function getData(page = 1) {
           </p>
           <button type="button" class="show-more mr-auto nav-link px-4 fw-bold">Show more...</button>
           <div class="card-footer d-flex align-items-center bg-transparent mt-auto pb-0 pt-3">
-            <a
-              href="#"
+            <button
+              type="button"
               class="card-footer__button-save nav-link rounded-3 py-2 px-3 fw-bold"
-              >Save to collection</a
-            >
+              >Save to collection
+            </button>
             <a href="#" class="card-footer__button-share btn btn-outline-dark rounded-3 py-2 px-3 fw-bold">Share</a>
           </div>
         </div>
-      </div>`
+      </li>`
     );
   });
 

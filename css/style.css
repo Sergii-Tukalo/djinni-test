@@ -1,6 +1,6 @@
 @font-face {
   font-family: Commissioner;
-  src: url("../fonts/Commissioner-Regular.ttf");
+  src: url('../fonts/Commissioner-Regular.ttf');
 }
 .body {
   background-color: white;
@@ -28,7 +28,7 @@
   color: #eee;
 }
 .body.dark-mode h1 {
-  color: #EBEBEB;
+  color: #ebebeb;
 }
 .body.dark-mode .search__input {
   background-color: #666;
@@ -46,8 +46,8 @@
   background-color: #666;
   color: #eee;
   -webkit-appearance: auto;
-     -moz-appearance: auto;
-          appearance: auto;
+  -moz-appearance: auto;
+  appearance: auto;
   background-image: none;
   padding-right: 10px;
 }
@@ -56,7 +56,7 @@
 }
 .body.dark-mode .sort .btn {
   color: #eee;
-  border: 2px solid #EBEBEB;
+  border: 2px solid #ebebeb;
 }
 .body.dark-mode .sort .btn:hover {
   border: 2px solid #666;
@@ -95,7 +95,7 @@
 }
 
 .header {
-  border-bottom: 1px solid #EBEBEB;
+  border-bottom: 1px solid #ebebeb;
   margin-bottom: 24px;
 }
 @media (min-width: 1024px) {
@@ -114,11 +114,11 @@
 .navigation {
   display: flex;
   -moz-column-gap: 24px;
-       column-gap: 24px;
+  column-gap: 24px;
 }
 .navigation .nav-link.active {
   font-weight: bold;
-  border-bottom: 2px solid #ED7135;
+  border-bottom: 2px solid #ed7135;
   margin-bottom: -2px;
 }
 .navigation .nav-link.active .nav-link {
@@ -140,7 +140,7 @@
 .user__select {
   width: auto;
   color: #666;
-  margin-right: 4px;
+  margin-right: 10px;
 }
 .user__sign-in {
   color: #666;
@@ -153,7 +153,7 @@
 }
 .filter .btn-check:checked + .btn {
   color: #fff;
-  background-color: #ED7135;
+  background-color: #ed7135;
   border-radius: 8px;
 }
 .filter .btn-check:checked + .btn.photos path {
@@ -186,7 +186,7 @@
 
 .sort .btn {
   color: #292929;
-  border: 2px solid #EBEBEB;
+  border: 2px solid #ebebeb;
 }
 .sort .btn:focus {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
@@ -230,12 +230,12 @@
   color: #666;
 }
 .product-list .card-footer__button-save {
-  background-color: #ED7135;
+  background-color: #ed7135;
   color: #fff;
   margin-right: 16px;
 }
 .product-list .card-footer__button-share {
-  border: 2px solid #EBEBEB;
+  border: 2px solid #ebebeb;
 }
 .product-list .show-more {
   cursor: pointer;
@@ -265,4 +265,4 @@
   .grid-two-columns {
     grid-template-columns: repeat(2, 1fr);
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

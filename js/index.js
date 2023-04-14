@@ -12,12 +12,14 @@ const loremText =
 nav.addEventListener('click', navigationHandlerClick);
 
 function navigationHandlerClick(e) {
-  navLink.forEach((element) => {
-    if (element.classList.contains('active')) {
-      element.classList.remove('active');
-      e.target.classList.add('active');
-    }
-  });
+  if (e.target.matches('.nav-link')) {
+    navLink.forEach((element) => {
+      if (element.classList.contains('active')) {
+        element.classList.remove('active');
+        e.target.classList.add('active');
+      }
+    });
+  }
 }
 
 async function getCountItems() {

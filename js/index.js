@@ -68,7 +68,7 @@ async function getData(page = 1) {
                 .join(' ')} 
             </span>
           </p>
-          <button type="button" class="show-more mr-auto nav-link px-4 fw-bold">Show more...</button>
+          <button type="button" class="show-more mr-auto nav-link px-4 fw-medium">Show more...</button>
           <div class="card-footer d-flex align-items-center bg-transparent mt-auto pb-0 pt-3">
             <button
               type="button"
